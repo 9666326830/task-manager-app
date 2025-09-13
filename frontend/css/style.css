@@ -1,0 +1,14 @@
+:root{
+  --primary:#4e54c8;
+  --accent:#8f94fb;
+}
+body { background: #f7f8fc; font-family: Inter, system-ui, Arial; }
+.navbar-brand { font-weight:700; }
+.card { border-radius: .8rem; }
+.task-card { border-left: 6px solid var(--primary); }
+.badge-priority-low { background:#56CCF2; color:#000; }
+.badge-priority-medium { background:#FFD166; color:#000; }
+.badge-priority-high { background:#FF6B6B; color:#fff; }
+.toast-container { position: fixed; right: 20px; bottom: 20px; z-index: 2000; }
+.dark-mode { background: #0b1221; color: #e6eef8; }
+.dark-mode .card { background:#0f1724; color:#e6eef8; }
